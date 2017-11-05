@@ -1,2 +1,2 @@
 # sudokuSolver
-it solves sudoku
+it solves sudoku in a graphic user interface
