@@ -1,0 +1,27 @@
+body{
+  background-color:pink;
+    
+}
+
+table { background-color:rgb(180,220,200);
+text-align:center ;
+    table-layout:fixed;
+    width: 100%;
+}
+td {
+    border: 2px solid #ccaa88;
+    border-collapse: collapse;
+    text-align: center;
+    table-layout: fixed;
+}
+input{
+   text-align:center ;
+   width:80%; 
+}
+.submit{
+   width:100%;
+   text-align:center ; 
+}
+form{
+   text-align:center ; 
+}
