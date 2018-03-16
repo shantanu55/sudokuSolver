@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>sudoku</title>
+          <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+    </head>
+    <body>
+        <table border="2">
+        <caption>SUDOKU   SOLVER</caption>
+        <tr>
+       <td><input id="d0" type="number" maxlength="1"/></td>
+       <td><input id="d1" type="number" maxlength="1"/></td>
+       <td><input id="d2" type="number" maxlength="1"/></td>
+       <td><input id="d3" type="number" maxlength="1"/></td>
+       <td><input id="d4" type="number" maxlength="1"/></td>
+       <td><input id="d5" type="number" maxlength="1"/></td>
+       <td><input id="d6" type="number" maxlength="1"/></td>
+       <td><input id="d7" type="number" maxlength="1"/></td>
+       <td><input id="d8" type="number" maxlength="1"/></td>
+       </tr>
+        <td><input id="d9" type="number" maxlength="1"/></td>
+       <td><input id="d10" type="number" maxlength="1"/></td>
+       <td><input id="d11" type="number" maxlength="1"/></td>
+       <td><input id="d12" type="number" maxlength="1"/></td>
+       <td><input id="d13" type="number" maxlength="1"/></td>
+       <td><input id="d14" type="number" maxlength="1"/></td>
+       <td><input id="d15" type="number" maxlength="1"/></td>
+       <td><input id="d16" type="number" maxlength="1"/></td>
+       <td><input id="d17" type="number" maxlength="1"/></td>
+       
+       </tr>
+        <td><input id="d18" type="number" maxlength="1"/></td>
+       <td><input id="d19" type="number" maxlength="1"/></td>
+       <td><input id="d20" type="number" maxlength="1"/></td>
+       <td><input id="d21" type="number" maxlength="1"/></td>
+       <td><input id="d22" type="number" maxlength="1"/></td>
+       <td><input id="d23" type="number" maxlength="1"/></td>
+       <td><input id="d24" type="number" maxlength="1"/></td>
+       <td><input id="d25" type="number" maxlength="1"/></td>
+       <td><input id="d26" type="number" maxlength="1"/></td>
+       
+         <tr>
+       <td><input id="d27" type="number" maxlength="1"/></td>
+       <td><input id="d28" type="number" maxlength="1"/></td>
+       <td><input id="d29" type="number" maxlength="1"/></td>
+       <td><input id="d30" type="number" maxlength="1"/></td>
+       <td><input id="d31" type="number" maxlength="1"/></td>
+       <td><input id="d32" type="number" maxlength="1"/></td>
+       <td><input id="d33" type="number" maxlength="1"/></td>
+       <td><input id="d34" type="number" maxlength="1"/></td>
+       <td><input id="d35" type="number" maxlength="1"/></td>
+      
+       </tr>
+        <td><input id="d36" type="number" maxlength="1"/></td>
+       <td><input id="d37" type="number" maxlength="1"/></td>
+       <td><input id="d38" type="number" maxlength="1"/></td>
+       <td><input id="d39" type="number" maxlength="1"/></td>
+       <td><input id="d40" type="number" maxlength="1"/></td>
+       <td><input id="d41" type="number" maxlength="1"/></td>
+       <td><input id="d42" type="number" maxlength="1"/></td>
+       <td><input id="d43" type="number" maxlength="1"/></td>
+       <td><input id="d44" type="number" maxlength="1"/></td>
+       
+       </tr>
+        <td><input id="d45" type="number" maxlength="1"/></td>
+       <td><input id="d46" type="number" maxlength="1"/></td>
+       <td><input id="d47" type="number" maxlength="1"/></td>
+       <td><input id="d48" type="number" maxlength="1"/></td>
+       <td><input id="d49" type="number" maxlength="1"/></td>
+       <td><input id="d50" type="number" maxlength="1"/></td>
+       <td><input id="d51" type="number" maxlength="1"/></td>
+       <td><input id="d52" type="number" maxlength="1"/></td>
+       <td><input id="d53" type="number" maxlength="1"/></td>
+       
+         <tr>
+       <td><input id="d54" type="number" maxlength="1"/></td>
+       <td><input id="d55" type="number" maxlength="1"/></td>
+       <td><input id="d56" type="number" maxlength="1"/></td>
+       <td><input id="d57" type="number" maxlength="1"/></td>
+       <td><input id="d58" type="number" maxlength="1"/></td>
+       <td><input id="d59" type="number" maxlength="1"/></td>
+       <td><input id="d60" type="number" maxlength="1"/></td>
+       <td><input id="d61" type="number" maxlength="1"/></td>
+       <td><input id="d62" type="number" maxlength="1"/></td>
+       
+       </tr>
+        <td><input id="d63" type="number" maxlength="1"/></td>
+       <td><input id="d64" type="number" maxlength="1"/></td>
+       <td><input id="d65" type="number" maxlength="1"/></td>
+       <td><input id="d66" type="number" maxlength="1"/></td>
+       <td><input id="d67" type="number" maxlength="1"/></td>
+       <td><input id="d68" type="number" maxlength="1"/></td>
+       <td><input id="d69" type="number" maxlength="1"/></td>
+       <td><input id="d70" type="number" maxlength="1"/></td>
+       <td><input id="d71" type="number" maxlength="1"/></td>
+       
+       </tr>
+        <td><input id="d72" type="number" maxlength="1"/></td>
+       <td><input id="d73" type="number" maxlength="1"/></td>
+       <td><input id="d74" type="number" maxlength="1"/></td>
+       <td><input id="d75" type="number" maxlength="1"/></td>
+       <td><input id="d76" type="number" maxlength="1"/></td>
+       <td><input id="d77" type="number" maxlength="1"/></td>
+       <td><input id="d78" type="number" maxlength="1"/></td>
+       <td><input id="d79" type="number" maxlength="1"/></td>
+       <td><input id="d80" type="number" maxlength="1"/></td>
+       </table>
+        <button id="button1">submit</button>
+    </body>
+</html>
